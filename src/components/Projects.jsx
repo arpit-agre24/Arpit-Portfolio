@@ -1,6 +1,14 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import Footer from "./Footer";
+import image1 from "../assets/Homepage.png"
+import image2 from "../assets/CarsPage.png"
+import image3 from "../assets/CarCustomizationInterface.png"
+import image4 from "../assets/UserDashboard.png"
+import image5 from "../assets/UserDashboard.png"
+
+
+
 
 const Projects = () => {
   return (
@@ -47,7 +55,7 @@ const Projects = () => {
                 "
               >
                 <img
-                  src="src/assets/Homepage.png"
+                  src={image1}
                   alt="Car Customization Homepage"
                   className="w-full h-full"
                 />
@@ -67,7 +75,7 @@ const Projects = () => {
                 "
               >
                 <img
-                  src="src/assets/CarsPage.png"
+                  src={image2}
                   alt="Car Customization Cars Page"
                   className="w-full h-full"
                 />
@@ -87,7 +95,7 @@ const Projects = () => {
                 "
               >
                 <img
-                  src="src/assets/UserDashboard.png"
+                  src={image3}
                   alt="Car Customization Homepage"
                   className="w-full h-full"
                 />
@@ -107,7 +115,7 @@ const Projects = () => {
                 "
               >
                 <img
-                  src="src/assets/AdminDashboard.png"
+                  src={image4}
                   alt="Car Customization Homepage"
                   className="w-full h-full"
                 />
@@ -128,7 +136,7 @@ const Projects = () => {
                 "
               >
                 <img
-                  src="src/assets/CarCustomizationInterface.png"
+                  src={image5}
                   alt="Car Customization Homepage"
                   className="w-full h-full"
                 />
