@@ -5,6 +5,7 @@ import Service from "./Service";
 import TechStack from "./TechStack";
 import Footer from "./Footer";
 import { Link } from "react-router-dom"
+import heroVideo from "../assets/heroVideo.mp4"
 
 const Home = () => {
   return (
@@ -48,7 +49,7 @@ const Home = () => {
 
         <div className="w-full lg:w-2/5 flex justify-center">
           <div className="w-[280px] sm:w-[350px] md:w-[430px] lg:w-[500px]">
-            <Video path="./src/assets/generate_an_animation_video_ou (1).mp4" />
+            <Video path={heroVideo}/>
           </div>
         </div>
       </div>
