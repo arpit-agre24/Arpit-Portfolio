@@ -1,16 +1,58 @@
-# React + Vite
+# Arpit Agre - Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive personal portfolio website built with React.js, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[Visit My Portfolio](YOUR_VERCEL_URL)
 
-## React Compiler
+## 👨‍💻 About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Hi, I'm Arpit Agre, a MERN Stack Developer passionate about building responsive, modern, and user-friendly web applications.
 
-## Expanding the Oxlint configuration
+I enjoy creating clean user interfaces and developing full-stack applications using modern web technologies.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Tailwind CSS
+- Bootstrap
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB
+
+### Tools
+- Git
+- GitHub
+- VS Code
+- EmailJS
+
+## ✨ Features
+
+- Responsive portfolio design
+- Home page with animated TypeWriter
+- About page
+- Services page
+- Projects page
+- Contact form
+- EmailJS integration
+- Responsive navigation
+- Modern dark-themed UI
+
+## 📂 Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+├── pages/
+├── App.jsx
+└── main.jsx
