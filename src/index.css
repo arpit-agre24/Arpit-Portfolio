@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+  background-color: black;
+}
+
+@theme {
+  @keyframes blink {
+    0%, 100% { background-color: transparent; }
+    50% { background-color: #3b82f6; } /* Matches bg-blue-500 */
+  }
+}
