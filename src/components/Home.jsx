@@ -48,7 +48,7 @@ const Home = () => {
         {/* Right Section */}
 
         <div className="w-full lg:w-2/5 flex justify-center">
-          <div className="w-[280px] sm:w-[350px] md:w-[430px] lg:w-[500px]">
+          <div className="w-[280px] sm:w-[350px] md:w-[430px] lg:w-[500px] mt-2">
             <Video path={heroVideo}/>
           </div>
         </div>

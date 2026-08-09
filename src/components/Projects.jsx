@@ -252,7 +252,6 @@ const Projects = () => {
                   border
                   border-gray-600
                   hover:border-[#e75a70]
-                  hover:text-[#e75a70]
                   transition
                   duration-300
                 "

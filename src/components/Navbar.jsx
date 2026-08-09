@@ -82,7 +82,7 @@ const Navbar = () => {
               className={linkStyles}
               onClick={() => setIsOpen(false)}
             >
-              HOME
+              PROJECTS
             </NavLink>
 
             <NavLink
