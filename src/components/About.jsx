@@ -4,7 +4,7 @@ import JourneyItem from "./JourneyItem";
 
 const About = () => {
   return (
-    <div className="font-mono min-h-screen bg-black text-white pt-8">
+    <div className="font-mono min-h-screen bg-black text-white pt-8 px-4 md:px-10">
       {/* ================= HEADER ================= */}
 
       <div className="max-w-6xl mx-auto text-center">
@@ -206,12 +206,10 @@ const About = () => {
           exploring opportunities to grow as a developer.
         </p>
       </div>
-      <Footer/>
     </div>
   );
 };
 
 /* ================= JOURNEY COMPONENT ================= */
-
 
 export default About;

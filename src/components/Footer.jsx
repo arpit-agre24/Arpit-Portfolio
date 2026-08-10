@@ -52,7 +52,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="/src/assets/ARPIT AGRE - RESUME.pdf"
+              href="/src/assets/Resume.pdf"
               target="_blank"
               className="text-3xl text-gray-300 hover:text-white transition"
             >

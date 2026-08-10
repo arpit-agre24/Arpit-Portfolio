@@ -31,14 +31,13 @@ const technologies = [
   { name: "Bootstrap", icon: <FaBootstrap />, color: "text-purple-500" },
   { name: "Git", icon: <FaGitAlt />, color: "text-orange-600" },
   { name: "GitHub", icon: <FaGithub />, color: "text-white" },
-  { name: "Java", icon: <FaJava />, color: "text-red-400" },
   { name: "Postman", icon: <SiPostman />, color: "text-orange-500" },
   { name: "Vite", icon: <SiVite />, color: "text-violet-400" },
 ];
 
 const TechStack = () => {
   return (
-    <section className="max-w-7xl mx-auto py-2 px-6 font-mono">
+    <section className="max-w-7xl mx-auto py-2 font-mono">
       <h2 className="text-5xl font-bold text-center text-white">Tech Stack</h2>
 
       <p className="text-gray-400 text-center mt-2 max-w-2xl mx-auto">

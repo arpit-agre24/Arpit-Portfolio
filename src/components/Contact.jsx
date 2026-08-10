@@ -8,7 +8,6 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import emailjs from "@emailjs/browser"
-import Footer from "./Footer";
 
 const Contact = () => {
 
@@ -40,7 +39,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="font-mono min-h-screen bg-black text-white pt-8">
+    <div className="font-mono min-h-screen bg-black text-white pt-8 px-4 md:px-10">
 
       {/* ================= HEADER ================= */}
 
@@ -332,7 +331,6 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <Footer/>
     </div>
   );
 };

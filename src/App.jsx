@@ -1,28 +1,28 @@
-import { useState } from 'react'
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
-import { BrowserRouter } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import Services from './components/Services'
-import TypeWriter from './components/TypeWriter'
 import Projects from './components/Projects'
+import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
+import PageTransition from './components/PageTransition'
 
 function App() {
-
-
   return(
     <>
-    <Navbar/>
-    <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/projects' element={<Projects/>}/>
-      <Route path='/about' element={<About/>}/>
-      <Route path='/contact' element={<Contact/>}/>
-      <Route path='/services' element={<Services/>}/>
-    </Routes>
+      <Navbar/>
+      <ScrollToTop/>
+      <Routes>
+        <Route path='/' element={<PageTransition><Home/></PageTransition>}/>
+        <Route path='/projects' element={<PageTransition><Projects/></PageTransition>}/>
+        <Route path='/about' element={<PageTransition><About/></PageTransition>}/>
+        <Route path='/contact' element={<PageTransition><Contact/></PageTransition>}/>
+        <Route path='/services' element={<PageTransition><Services/></PageTransition>}/>
+      </Routes>
+      <Footer/>
     </>
   )
 }

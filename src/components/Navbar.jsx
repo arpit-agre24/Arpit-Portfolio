@@ -22,9 +22,9 @@ const Navbar = () => {
           {/* Logo */}
           <NavLink
             to="/"
-            className="w-12 h-12 border rounded-full flex items-center justify-center font-mono"
+            className="w-10 h-10 border rounded"
           >
-            AA
+            <img src="/Portfolio_Favicon.png"/>
           </NavLink>
 
           {/* Desktop Mailbox */}
@@ -94,6 +94,14 @@ const Navbar = () => {
             </NavLink>
 
             <NavLink
+              to="/services"
+              className={linkStyles}
+              onClick={() => setIsOpen(false)}
+            >
+              SERVICES
+            </NavLink>
+
+            <NavLink
               to="/contact"
               className={linkStyles}
               onClick={() => setIsOpen(false)}
@@ -101,13 +109,6 @@ const Navbar = () => {
               CONTACT
             </NavLink>
 
-            <NavLink
-              to="/services"
-              className={linkStyles}
-              onClick={() => setIsOpen(false)}
-            >
-              SERVICES
-            </NavLink>
           </div>
         )}
       </div>

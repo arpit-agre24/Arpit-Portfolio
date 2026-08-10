@@ -6,7 +6,7 @@ import Footer from "./Footer";
 const Services = () => {
 
   return (
-    <div className="font-mono min-h-screen bg-black text-white pt-8">
+    <div className="font-mono min-h-screen bg-black text-white pt-8 px-4 md:px-10">
 
       {/* ================= HEADER ================= */}
       <div className="max-w-6xl mx-auto text-center">
@@ -55,7 +55,6 @@ const Services = () => {
           Let's Work Together
         </Link>
       </div>
-      <Footer/>
     </div>
   );
 };

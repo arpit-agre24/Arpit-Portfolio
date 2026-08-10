@@ -44,7 +44,7 @@ const Service = () => {
     ]
 
   return (
-    <section className='max-w-7xl mx-auto py-10 px-6'>
+    <section className='max-w-7xl mx-auto py-8'>
         <h2 className="text-3xl font-bold text-center text-[#e75a70]">
             What I Bring to the Table?
         </h2>

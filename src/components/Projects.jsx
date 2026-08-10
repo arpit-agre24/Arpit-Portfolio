@@ -12,7 +12,7 @@ import image5 from "../assets/UserDashboard.png"
 
 const Projects = () => {
   return (
-    <div className="font-mono min-h-screen bg-black text-white pt-8">
+    <div className="font-mono min-h-screen bg-black text-white pt-8 px-4 md:px-10">
       {/* ================= PAGE HEADER ================= */}
 
       <div className="max-w-7xl mx-auto text-center">
@@ -239,7 +239,7 @@ const Projects = () => {
 
             <div className="mt-10">
               <a
-                href="https://github.com/yourusername/car-customization"
+                href="https://github.com/arpit-agre24/CarCustomizer"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="
@@ -249,9 +249,8 @@ const Projects = () => {
                   px-6
                   py-3
                   rounded-lg
-                  border
-                  border-gray-600
-                  hover:border-[#e75a70]
+                  bg-[#e75a70]
+                  hover:bg-[#d6485f]
                   transition
                   duration-300
                 "
@@ -263,7 +262,6 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <Footer/>
     </div>
   );
 };
