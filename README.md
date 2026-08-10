@@ -22,13 +22,6 @@ I enjoy creating clean user interfaces and developing full-stack applications us
 - Tailwind CSS
 - Bootstrap
 
-### Backend
-- Node.js
-- Express.js
-
-### Database
-- MongoDB
-
 ### Tools
 - Git
 - GitHub
