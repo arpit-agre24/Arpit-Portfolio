@@ -7,6 +7,7 @@ import {
   FaHeart,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import resume from "/src/assets/Resume.pdf"
 
 const Footer = () => {
   return (
@@ -52,7 +53,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="/src/assets/Resume.pdf"
+              href={resume}
               target="_blank"
               className="text-3xl text-gray-300 hover:text-white transition"
             >
