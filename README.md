@@ -4,7 +4,7 @@ A modern and responsive personal portfolio website built with React.js, Vite, an
 
 ## 🚀 Live Website
 
-[Visit My Portfolio](YOUR_VERCEL_URL)
+[Visit My Portfolio](https://arpit-portfolio-vert.vercel.app/)
 
 ## 👨‍💻 About
 
